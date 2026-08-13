@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "Servicos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "preco": {
+      "type": "float"
+    },
+    "duracao_minutos": {
+      "type": "integer"
+    },
+    "servicos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::barbeiro.barbeiro",
+      "mappedBy": "barbeiros"
+    }
+  }
+}

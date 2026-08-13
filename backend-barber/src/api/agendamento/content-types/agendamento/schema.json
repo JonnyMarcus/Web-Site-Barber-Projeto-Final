@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendamentos",
+  "info": {
+    "singularName": "agendamento",
+    "pluralName": "agendamentos",
+    "displayName": "Agendamento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data_horario": {
+      "type": "datetime"
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "pendente",
+        "confirmado",
+        "cancelado"
+      ]
+    },
+    "barbeiro": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::barbeiro.barbeiro"
+    },
+    "servico": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::servico.servico"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "barbeiros",
+  "info": {
+    "singularName": "barbeiro",
+    "pluralName": "barbeiros",
+    "displayName": "Barbeiro"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "disponibilidade": {
+      "type": "text"
+    },
+    "barbeiros": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::servico.servico",
+      "inversedBy": "servicos"
+    }
+  }
+}
