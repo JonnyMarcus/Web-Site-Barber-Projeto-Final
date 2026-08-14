@@ -1,5 +1,7 @@
-export function Header(){
-    return(
-        
-    )
+export function Footer() {
+  return (
+    <footer>
+      <div></div>
+    </footer>
+  );
 }
