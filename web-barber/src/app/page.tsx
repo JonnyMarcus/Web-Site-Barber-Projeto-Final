@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* Sobre */}
       <section className="relative min-h-screen bg-brand-cream-light flex flex-col items-start w-full px-6 md:px-44 py-28 shrink-0">
-        <h1 className="flex text-brand-gold font-heading text-lg uppercase mb-7 font-bold leading-tight justify-center items-center">
+        <h1 className="flex text-brand-gold font-body text-lg uppercase mb-7 font-bold leading-tight justify-center items-center">
           Sobre nos
         </h1>
 
