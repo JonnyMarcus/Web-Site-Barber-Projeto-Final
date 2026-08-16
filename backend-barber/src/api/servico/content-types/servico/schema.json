@@ -4,23 +4,24 @@
   "info": {
     "singularName": "servico",
     "pluralName": "servicos",
-    "displayName": "Servicos"
+    "displayName": "Servicos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Titulo": {
+    "nome": {
       "type": "string"
     },
     "descricao": {
       "type": "text"
     },
     "preco": {
-      "type": "float"
+      "type": "decimal"
     },
-    "duracao_minutos": {
+    "duracao": {
       "type": "integer"
     },
     "servicos": {
