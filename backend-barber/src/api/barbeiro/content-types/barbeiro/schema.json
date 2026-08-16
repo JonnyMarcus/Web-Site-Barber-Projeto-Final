@@ -4,7 +4,8 @@
   "info": {
     "singularName": "barbeiro",
     "pluralName": "barbeiros",
-    "displayName": "Barbeiro"
+    "displayName": "Barbeiro",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,14 +15,24 @@
     "nome": {
       "type": "string"
     },
-    "disponibilidade": {
-      "type": "text"
-    },
     "barbeiros": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::servico.servico",
       "inversedBy": "servicos"
+    },
+    "especialidade": {
+      "type": "string"
+    },
+    "foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

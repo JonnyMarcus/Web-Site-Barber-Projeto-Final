@@ -4,17 +4,18 @@
   "info": {
     "singularName": "agendamento",
     "pluralName": "agendamentos",
-    "displayName": "Agendamento"
+    "displayName": "Agendamento",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "data_horario": {
-      "type": "datetime"
+    "data": {
+      "type": "date"
     },
-    "estado": {
+    "status": {
       "type": "enumeration",
       "enum": [
         "pendente",
@@ -36,6 +37,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "horario": {
+      "type": "time"
     }
   }
 }
