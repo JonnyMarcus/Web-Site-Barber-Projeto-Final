@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="grid grid-cols-4 gap-8 justify-between">
         {/* coluna marca */}
         <div className="items-start">
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <Image
               src="/Logo.png"
               alt="Logo Barbearia do Victor"
@@ -24,7 +24,7 @@ export default function Footer() {
               </span>
             </div>
           </div>
-          <div className="flex flex-col font-body text-brand-footer text-sm px-2">
+          <div className="flex flex-col font-body text-brand-footer text-sm mt-5">
             <span>Técnica, conversa e cuidado</span>
             <span>masculino no centro de São Paulo.</span>
           </div>
