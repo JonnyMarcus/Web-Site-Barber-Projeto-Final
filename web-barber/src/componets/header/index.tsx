@@ -51,7 +51,7 @@ export default function Header() {
 
       <Link
         href="/login"
-        className="hidden md:inline-flex bg-brand-gold text-brand-black text-sm font-medium px-5 py-2 rounded-full hover:opacity-90 transition-opacity"
+        className="hidden md:inline-flex bg-brand-gold text-brand-black text-sm font-medium px-8 py-2  hover:opacity-90 transition-opacity"
       >
         Entrar
       </Link>
@@ -96,7 +96,7 @@ export default function Header() {
             <Link
               href="/login"
               onClick={() => setMenuOpen(false)}
-              className="bg-brand-gold text-brand-black text-sm font-medium px-5 py-2 rounded-full"
+              className="bg-brand-gold text-brand-black text-sm font-medium px-12 py-2 "
             >
               Entrar
             </Link>
