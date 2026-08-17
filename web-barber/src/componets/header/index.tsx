@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="flex w-full bg-brand-dark/95 justify-between items-center px-8 py-4 text-brand-cream border-b border-brand-black drop-shadow-xl">
-      <Link href="/" className="flex items-center gap-2">
+      <Link href="/" className="flex items-center gap-2 ">
         <Image
           src="/Logo.png"
           alt="Logo Barbearia do Victor"
