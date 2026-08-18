@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "../componets/header";
-import Footer from "../componets/footer";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const InterSas = Inter({
   variable: "--font-body-inter",
