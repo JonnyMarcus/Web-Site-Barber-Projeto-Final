@@ -41,7 +41,7 @@ export default function Header() {
       </nav>
 
       <Link
-        href="/login"
+        href="/entrar"
         className="bg-brand-gold text-brand-black text-sm font-medium px-6 py-2  hover:opacity-90 transition-opacity"
       >
         Entrar
