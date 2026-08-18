@@ -17,7 +17,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-linear-to-r from-brand-dark/96 via-brand-dark/70 to-brand-dark/18" />
         <div className="absolute bottom-0 inset-x-0 h-32 bg-linear-to-t from-brand-dark to-transparent pointer-events-none" />
 
-        <div className="ml-9 relative flex flex-col justify-center items-start w-full max-w-full min-h-screen pt-0 px-12 pb-20">
+        <div className=" relative flex flex-col justify-center items-start w-full max-w-full min-h-screen pt-0 px-12 pb-20">
           <div className="flex flex-col gap-2">
             <span className="text-brand-gold font-heading text-xs font-bold leading-4 tracking-widest uppercase">
               São Paulo · Desde 2014
@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* Sobre */}
       <section className="relative min-h-screen bg-brand-cream-light flex flex-col items-start w-full px-6 md:px-44 py-28 shrink-0">
-        <h1 className="flex text-brand-gold font-heading text-lg uppercase mb-7 font-bold leading-tight justify-center items-center">
+        <h1 className="flex text-brand-gold font-body text-lg uppercase mb-7 font-bold leading-tight justify-center items-center">
           Sobre nos
         </h1>
 
@@ -62,7 +62,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col items-start">
             <h2 className="text-brand-dark font-heading text-5xl font-medium leading-tight tracking-tight mb-6">
               Onde tradição e estilo se encontram.
             </h2>
