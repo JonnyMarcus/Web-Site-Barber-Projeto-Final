@@ -67,13 +67,11 @@ export default function Header() {
 
       {menuOpen && (
         <>
-          {/* overlay desfocado atrás do drawer */}
           <div
             className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 md:hidden"
             onClick={() => setMenuOpen(false)}
           />
 
-          {/* drawer deslizando da direita */}
           <nav className="fixed top-0 right-0 h-full w-72 bg-brand-dark flex flex-col items-start gap-6 px-8 py-8 z-50 md:hidden">
             <button
               type="button"
