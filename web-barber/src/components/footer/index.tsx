@@ -66,7 +66,7 @@ export default function Footer() {
           <h4 className="text-brand-gold text-xs font-bold uppercase">
             acompanhe
           </h4>
-          <div className="flex text-brand-footer text-sm font-normal gap-1">
+          <div className="flex text-brand-footer text-sm font-normal  items-center gap-1">
             <MessageCircle className="w-4 h-4 text-brand-gold" />
             <span>@barbeariadovictor</span>
           </div>

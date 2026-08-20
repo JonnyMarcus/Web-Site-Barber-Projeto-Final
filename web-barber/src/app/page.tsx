@@ -43,10 +43,12 @@ export default function Home() {
             </p>
           </div>
 
-          <button className="inline-flex justify-center items-center mt-8 gap-3 py-4 px-6 bg-brand-gold hover:opacity-90 transition-opacity">
-            Agendar Horario
-            <ChevronRight />
-          </button>
+          <Link
+            href="/agenda"
+            className="inline-flex justify-center items-center mt-8 gap-3 py-4 px-6 bg-brand-gold hover:opacity-90 transition-opacity"
+          >
+            Agendar Horario <ChevronRight />
+          </Link>
         </div>
       </section>
 
