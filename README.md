@@ -114,4 +114,4 @@ O painel administrativo do Strapi fica disponível em [http://localhost:1337/adm
 
 ## 📜 Licença
 
-Projeto acadêmico/de estudo — sem licença definida.
+Projeto desenvolvido para fins acadêmicos e como projeto da byron.solutions — Empresa Júnior.
