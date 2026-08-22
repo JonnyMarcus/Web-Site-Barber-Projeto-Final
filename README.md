@@ -106,7 +106,7 @@ O painel administrativo do Strapi fica disponível em [http://localhost:1337/adm
 | Avatar                                                    | Nome                     | GitHub                                         |
 | --------------------------------------------------------- | ------------------------ | ---------------------------------------------- |
 | <img src="https://github.com/JonnyMarcus.png" width="48"> | Jonny Marcus             | [@JonnyMarcus](https://github.com/JonnyMarcus) |
-| —                                                         | _nome do contribuidor 2_ | [@usuario2](https://github.com/usuario2)       |
+|<img src="https://avatars.githubusercontent.com/u/140420502?v=4" width="48">                                                         | Ana Cristina Meira | [anacmeira]([https://github.com/usuario2](https://github.com/anacmeira))       |
 | —                                                         | _nome do contribuidor 3_ | [@usuario3](https://github.com/usuario3)       |
 | —                                                         | _nome do contribuidor 4_ | [@usuario4](https://github.com/usuario4)       |
 
