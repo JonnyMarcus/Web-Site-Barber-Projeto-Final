@@ -1,4 +1,5 @@
 import { ArrowRight, Scissors } from "lucide-react";
+import Link from "next/link";
 
 export default function Servicos() {
   return (
@@ -162,13 +163,13 @@ export default function Servicos() {
             </p>
           </div>
 
-          <button
+          <Link
             className="inline-flex items-center gap-2 py-3 px-5 mt-8 md:mt-0 border border-brand-gold text-brand-gold font-body text-xs font-bold uppercase hover:bg-brand-gold hover:text-brand-dark transition-colors shrink-0"
-            type="button"
+            href="/planos"
           >
             Entrar para ver planos
             <ArrowRight className="w-3.5 h-3.5 shrink-0" />
-          </button>
+          </Link>
         </div>
       </section>
     </div>
