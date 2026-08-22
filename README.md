@@ -110,7 +110,7 @@ O painel administrativo do Strapi fica disponível em [http://localhost:1337/adm
 |<img src="https://avatars.githubusercontent.com/u/265122511?v=4" width="48">| Matheus Gouveia David |[@mtgvdavid](https://github.com/mtgvdavid)       |
 |<img src="https://avatars.githubusercontent.com/u/267184397?v=4" width="48">| Enzo Murmo Cardoso | [@stykus74](https://github.com/stykus74)       |
 
-> Substitua os placeholders acima pelos nomes e usernames reais dos demais contribuidores do projeto.
+
 
 ## 📜 Licença
 
