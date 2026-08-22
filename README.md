@@ -18,7 +18,7 @@ O frontend foi construído traduzindo, seção por seção, um design completo d
 
 ## 🖼️ Screenshots
 
-> Adicione capturas de tela do site aqui. Sugestão: crie uma pasta `screenshots/` na raiz do repositório e referencie os arquivos abaixo.
+
 
 | Home                            | Serviços                                |
 | ------------------------------- | --------------------------------------- |
