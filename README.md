@@ -105,10 +105,10 @@ O painel administrativo do Strapi fica disponível em [http://localhost:1337/adm
 
 | Avatar                                                    | Nome                     | GitHub                                         |
 | --------------------------------------------------------- | ------------------------ | ---------------------------------------------- |
-| <img src="https://github.com/JonnyMarcus.png" width="48"> | Jonny Marcus             | [@JonnyMarcus](https://github.com/JonnyMarcus) |
-|<img src="https://avatars.githubusercontent.com/u/140420502?v=4" width="48">                                                         | Ana Cristina Meira | [@anacmeira](https://github.com/anacmeira)       |
-| —                                                         | _nome do contribuidor 3_ | [@usuario3](https://github.com/usuario3)       |
-| —                                                         | _nome do contribuidor 4_ | [@usuario4](https://github.com/usuario4)       |
+|<img src="https://github.com/JonnyMarcus.png" width="48"> | Jonny Marcus Santos Militão | [@JonnyMarcus](https://github.com/JonnyMarcus) |
+|<img src="https://avatars.githubusercontent.com/u/140420502?v=4" width="48">          | Ana Cristina Meira | [@anacmeira](https://github.com/anacmeira)       |
+|<img src="https://avatars.githubusercontent.com/u/265122511?v=4" width="48">| Matheus Gouveia|David [@mtgvdavid](https://github.com/mtgvdavid)       |
+|<img src="https://avatars.githubusercontent.com/u/267184397?v=4" width="48">| Enzo Murmo Cardoso | [@stykus74](https://github.com/stykus74)       |
 
 > Substitua os placeholders acima pelos nomes e usernames reais dos demais contribuidores do projeto.
 
