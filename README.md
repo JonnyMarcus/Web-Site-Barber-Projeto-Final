@@ -14,7 +14,14 @@ Web-Site-Barber-Projeto-Final/
 
 ## ✨ Sobre o projeto
 
-O frontend foi construído traduzindo, seção por seção, um design completo do Figma para componentes React reutilizáveis, com foco em fidelidade visual, responsividade e boas práticas de acessibilidade semântica (hierarquia de headings, `alt` em imagens, estados de foco). O backend usa **Strapi** para gerenciar o conteúdo dinâmico do site (serviços, barbeiros, horários e agendamentos) através de uma API REST/GraphQL.
+O frontend Next.js/React implementa páginas institucionais e uma interface interativa de agendamento. O backend Strapi define tipos de conteúdo para serviços, barbeiros, planos e agendamentos, expondo a API REST padrão do Strapi.
+
+## Estado de implementação verificado
+
+- **Frontend:** páginas e fluxo visual de seleção de barbeiro, data e horário implementados.
+- **Backend:** tipos de conteúdo Strapi para agendamento, barbeiro, plano e serviço, com controllers e services padrão.
+- **Ainda não implementado/verificado:** chamadas do frontend à API, persistência de um agendamento submetido pela interface, autenticação/autorização ponta a ponta, disponibilidade de horários, prevenção de conflitos e testes automatizados.
+- As capturas abaixo mostram telas do projeto; elas não comprovam integração funcional entre as aplicações.
 
 ## 🖼️ Screenshots
 
